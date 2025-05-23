@@ -86,9 +86,13 @@ namespace JustLikeACollection
             {
                 v2 = item;
             }
-            else
+            else if (list_items == 2)
             {
                 v3 = item;
+            }
+            else
+            {
+                return;
             }
             Count++;
         }
